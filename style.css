@@ -70,3 +70,103 @@ ul li:hover {
 .port-content span {
   color: #3d9292;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #00bcd4;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul li {
+  margin: 0px 60px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.portfolio {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.work:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+.work .icon {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #333;
+}
+.work img {
+  width: 250px;
+  height: 250px;
+}
+
+/* About page */
+
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.about .images img{
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.40);
+}
+
+.about .images {
+  width : 30%;
+}
+
+.about .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.about span {
+  color: #3d9292;
+}
