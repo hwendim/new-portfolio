@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -169,4 +173,101 @@ nav ul li {
 
 .about span {
   color: #3d9292;
+}
+/* skills */
+.header {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.header span {
+  color: #00bcd4;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: wrap;
+  /* height: 60vh; */
+}
+
+.skill {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100px;
+  height: 150px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* contact */
+
+.contact-container{
+  height: 85vh;
+  position: relative;
+}
+
+.contact{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 380px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+  color: #333;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+
+.name,.email, .text {
+  width: 100%;
+}
+.name input{
+  padding: 12px 0px;
+  width: 100%;
+  margin: 15px 0 15px 0px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.email input {
+  padding: 12px 0px;
+  width: 100%;
+  margin: 15px 0 15px 0px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.text textarea {
+  width: 100%;
+  margin-top: 15px;
+  padding-bottom: 80px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.btn input{
+   height: 35px;
+   padding: 5px 10px;
+   width: 150px;
+   margin: 20px 0px;
+   background-color: #3d9292;
+   color: #ffff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
 }
