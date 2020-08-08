@@ -203,7 +203,7 @@ nav ul li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24);
 }
 
-a {
+.menu ul li a {
   text-decoration: none;
   color: #fff;
 }
@@ -270,4 +270,20 @@ a {
    border: none;
    border-radius: 5px;
    cursor: pointer;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.socials a {
+  margin: 20px;
+  color: #3d9292;
+}
+
+.socials p {
+  color: #333;
 }
